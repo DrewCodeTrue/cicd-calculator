@@ -5,6 +5,12 @@ let currentNumber = '';
 let previousNumber = '';
 let operation = '';
 
+/**
+ * function handleButtonPress
+ * обработчик нажатия клавиш
+ * @param {any} event - event.
+ */
+
 function handleButtonPress(event) {
     const button = event.target;
     const value = button.textContent;
