@@ -1,0 +1,11 @@
+{
+  "tags": {
+    "dictionaries": ["jsdoc"]
+  },
+  "source": {
+    "include": ["module.js"]
+  },
+  "opts": {
+    "destination": "./docs/"
+  }
+}
